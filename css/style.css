@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.formTemp {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  display: none;
+}
+.formTemp.signup {
+  display: flex;
+}
+.formTemp form {
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+.formTemp form .alert {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  color: red;
+  display: none;
+}
+.formTemp form h2 {
+  width: 130px;
+  text-align: center;
+  border-bottom: 2px solid #fff;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.formTemp form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.formTemp form button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.home {
+  height: 100vh;
+  display: none;
+  position: relative;
+}
+.home nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.home nav .logout {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.home .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .content h2 span {
+  border-bottom: 1px solid #fff;
+}/*# sourceMappingURL=style.css.map */
